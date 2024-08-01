@@ -1,0 +1,13 @@
+{
+    "inputBaseTrain": "../data/Train_png_4000/",
+    "inputBaseVal": "../data/Val_png_345/",
+    "outputPath": "../data/output/",
+    "numEpochs": 1000,
+    "learningRateStart": 0.0001,
+    "batchSize": 32,
+    "resnetNum": 34,
+    "freeze": -1,
+    "paramFlag": "alphaply",
+    "evalInterval": 50,
+    "checkpointInterval": 100
+}
